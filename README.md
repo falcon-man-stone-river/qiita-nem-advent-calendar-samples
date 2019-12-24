@@ -23,7 +23,7 @@ npm 6.13.4
 ```
 
 ## Usage
-### git clone and enter the 'qiita-samples' directory
+### git clone and enter the 'qiita-nem-advent-calendar-samples' directory
 ```bash
 $ git clone https://github.com/falcon-man-stone-river/qiita-nem-advent-calendar-samples.git
 $ cd qiita-nem-advent-calendar-samples

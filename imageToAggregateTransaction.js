@@ -15,7 +15,7 @@ const splitBase64List = async (data, splitSize) => {
   });
 };
 
-// Base64配列からトランザクション作成
+// トランザクション作成
 const createTransction = (address, message) => {
   return TransferTransaction.create(
     Deadline.create(),
@@ -42,7 +42,7 @@ const createTransction = (address, message) => {
 
     // Base64配列数分、インナートランザクション作成
     const innerTransactions = base64List.map((r) => {
-          return createTransction(account.address, r).toAggregate(account.publicAccount);
+      return createTransction(account.address, r).toAggregate(account.publicAccount);
     });
 
     // アグリゲートコンプリート トランザクション作成
