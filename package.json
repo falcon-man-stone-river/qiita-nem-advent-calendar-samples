@@ -1,0 +1,24 @@
+{
+  "name": "qiitaaggregatetransactionsample",
+  "version": "1.0.0",
+  "description": "qiita-aggregatetransaction-sample",
+  "main": "imageFromTxHash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falcon-man-stone-river/qiita-nem-advent-calendar-samples.git"
+  },
+  "author": "falcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/falcon-man-stone-river/qiita-nem-advent-calendar-samples/issues"
+  },
+  "homepage": "https://github.com/falcon-man-stone-river/qiita-nem-advent-calendar-samples#readme",
+  "dependencies": {
+    "file-type": "^12.4.2",
+    "image-to-base64": "^2.0.1",
+    "nem2-sdk": "^0.15.1"
+  }
+}

@@ -26,7 +26,7 @@ npm 6.13.4
 ### git clone and enter the 'qiita-samples' directory
 ```bash
 $ git clone https://github.com/falcon-man-stone-river/qiita-nem-advent-calendar-samples.git
-$ cd qiita-samples
+$ cd qiita-nem-advent-calendar-samples
 ```
 
 ### Install requirements library
@@ -52,7 +52,7 @@ $ node imageToAggregateTransaction.js
 image to base64: CatapultChristmas2019.jpg 1022384
 base64List size: 1000
 - signedTransaction hash -
-CBE54B229FBDAAAFB194E71C36EB1625019429A878B64A3505DA48E946608835
+A1E3C523C67FEA8F4D333C662CF8918FCC1BA91F147F9EF7FAE070CEE787E594
 - sendTransaction -
 packet 9 was pushed to the network via /transaction
 ```
@@ -62,28 +62,26 @@ get image data file from "mijin Catapult blockchain".
 ### set the TX_HASH environment variable
 
 ```bash
-$ export TX_HASH=CBE54B229FBDAAAFB194E71C36EB1625019429A878B64A3505DA48E946608835
+$ export TX_HASH=A1E3C523C67FEA8F4D333C662CF8918FCC1BA91F147F9EF7FAE070CEE787E594
 ```
 
 ```bash
 $ node imageFromTxHash.js
 http://lb-7qvhzx74i6vzy.japaneast.cloudapp.azure.com:3000
-CBE54B229FBDAAAFB194E71C36EB1625019429A878B64A3505DA48E946608835
+A1E3C523C67FEA8F4D333C662CF8918FCC1BA91F147F9EF7FAE070CEE787E594
 - getTransaction -
-txTimestamp:  2019-12-22T10:51:09.000Z
+txTimestamp:  2019-12-24T04:52:14.000Z
 isConfirmed:  true
 Transaction size:  1119552
-innerTransaction count:  1000
-fileName: CBE54B229FBDAAAFB194E71C36EB1625019429A878B64A3505DA48E946608835.jpg
+fileName: A1E3C523C67FEA8F4D333C662CF8918FCC1BA91F147F9EF7FAE070CEE787E594.jpg
 - writeFile -
-complete.
 ```
 
-### Open the created image file from blockchain
-#### for mac os
+### Open the created image file (from blockchain messages)
+#### ex) for mac os
 
 ```bash
-$ qlmanage -p CBE54B229FBDAAAFB194E71C36EB1625019429A878B64A3505DA48E946608835.jpg
+$ qlmanage -p A1E3C523C67FEA8F4D333C662CF8918FCC1BA91F147F9EF7FAE070CEE787E594.jpg
 ```
 
 # Author
