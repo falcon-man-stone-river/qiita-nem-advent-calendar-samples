@@ -3,7 +3,7 @@
 ## Overview
 
 #### Sample code for "Qiita nem Advent Calender 2019"
-https://qiita.com/Hishikawa/private/403f22af69891ee78870
+https://qiita.com/Hishikawa/items/403f22af69891ee78870
 
 ## Description
 
