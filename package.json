@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/falcon-man-stone-river/qiita-nem-advent-calendar-samples#readme",
   "dependencies": {
-    "file-type": "^12.4.2",
+    "file-type": "^16.5.4",
     "image-to-base64": "^2.0.1",
     "nem2-sdk": "^0.15.1"
   }
